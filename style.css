@@ -1,0 +1,20 @@
+body {
+  margin: 0; 
+  overflow: hidden;
+  }
+.winner {
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  width: 100vw; 
+  height: 100vh; 
+  z-index: 1; 
+  position: absolute;
+}
+.hidden {
+  display: none !important
+}
+h1 {
+  color: #fff; 
+  font-size: 64px;
+}
